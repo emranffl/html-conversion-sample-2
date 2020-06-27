@@ -1,0 +1,87 @@
+/*google fonts link*/
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap');
+
+.sec-01 {
+    background-image: url(../media/bg-main.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgba(85, 49, 49, 0.5);
+}
+
+#brand-logo {
+    font-size: 2.5rem;
+    font-family: 'DM Serif Text', serif;
+}
+
+.title {
+    font-family: 'DM Serif Text', serif;
+}
+
+.btns {
+    padding: 10px 30px;
+}
+
+.carousel-img {
+    width: 100px !important;
+}
+
+
+.sec-05 p,
+.sec-06 div p {
+    line-height: 1.5;
+}
+
+td {
+    padding: 10px 0;
+}
+
+input {
+    border-bottom-width: 1px;
+    color: white;
+}
+
+input::placeholder {
+    color: lightgray;
+    font-style: italic;
+    padding: 5px 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+.submit {
+    color: white;
+    border-bottom-width: 1px;
+}
+
+
+.sec-03,
+.sec-04,
+.sec-05,
+.sec-06 {
+    margin-top: 200px !important;
+    margin-bottom: 200px !important;
+}
+
+.navbar-container {
+    transition: background-color 1.5s;
+}
+
+.icn,
+#brand-logo {
+    transition: color 1s;
+}
